@@ -10,6 +10,8 @@ namespace Lab_3
     {
         static void Main(string[] args)
         {
+            int i;
+
             Console.WriteLine("Learn you squares and cubes!");
 
             Console.WriteLine("Enter an integer: ");
@@ -17,6 +19,13 @@ namespace Lab_3
 
             Console.WriteLine("Number \t Squared \t Cubed");
             Console.WriteLine("======\t ====== \t =====");
+
+            for(i = 1; i <= input; i++)
+            {
+                Console.WriteLine(i + "\t" + (i*i) + "\t" + (i*i*i));
+                
+
+            }
 
 
         }
